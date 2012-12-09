@@ -1,0 +1,169 @@
+SEED DECISION LIST
+SPELLING Contains(Corp) -> ORGANIZATION (prob=-0.1E1 ; freq=-1)
+SPELLING Contains(Japan) -> LOCATION (prob=-0.1E1 ; freq=-1)
+SPELLING Contains(John) -> PERSON (prob=-0.1E1 ; freq=-1)
+SPELLING Contains(David) -> PERSON (prob=-0.1E1 ; freq=-1)
+SPELLING Contains(City) -> LOCATION (prob=-0.1E1 ; freq=-1)
+SPELLING Contains(Ltd) -> ORGANIZATION (prob=-0.1E1 ; freq=-1)
+
+ITERATION #1: NEW CONTEXT RULES
+CONTEXT Contains(between) -> ORGANIZATION(prob=0.8333333333333333E0 ; freq=5)
+CONTEXT Contains(capital) -> LOCATION(prob=0.1E1 ; freq=10)
+CONTEXT Contains(chairman) -> PERSON(prob=0.1E1 ; freq=7)
+CONTEXT Contains(company) -> ORGANIZATION(prob=0.1E1 ; freq=7)
+CONTEXT Contains(president) -> PERSON(prob=0.8461538461538462E0 ; freq=11)
+CONTEXT Contains(region) -> LOCATION(prob=0.1E1 ; freq=11)
+ITERATION #1: NEW SPELLING RULES
+SPELLING Contains(David) -> PERSON(prob=0.1E1 ; freq=20)
+SPELLING Contains(Ho) -> LOCATION(prob=0.1E1 ; freq=8)
+SPELLING Contains(Johnson) -> PERSON(prob=0.1E1 ; freq=10)
+SPELLING Contains(Lockheed) -> ORGANIZATION(prob=0.8E0 ; freq=8)
+SPELLING Contains(Ltd) -> ORGANIZATION(prob=0.1E1 ; freq=16)
+SPELLING Contains(Minh) -> LOCATION(prob=0.1E1 ; freq=8)
+ITERATION #2: NEW CONTEXT RULES
+CONTEXT Contains(Bank) -> LOCATION(prob=0.9047619047619048E0 ; freq=19)
+CONTEXT Contains(merger) -> ORGANIZATION(prob=0.1E1 ; freq=10)
+CONTEXT Contains(stake) -> ORGANIZATION(prob=0.1E1 ; freq=5)
+ITERATION #2: NEW SPELLING RULES
+SPELLING Contains(City) -> LOCATION(prob=0.1E1 ; freq=44)
+SPELLING Contains(David) -> PERSON(prob=0.1E1 ; freq=20)
+SPELLING Contains(Ho) -> LOCATION(prob=0.8888888888888889E0 ; freq=8)
+SPELLING Contains(John) -> PERSON(prob=0.1E1 ; freq=10)
+SPELLING Contains(Lockheed) -> ORGANIZATION(prob=0.8E0 ; freq=8)
+SPELLING Contains(Ltd) -> ORGANIZATION(prob=0.1E1 ; freq=16)
+ITERATION #3: NEW CONTEXT RULES
+CONTEXT Contains(shares) -> ORGANIZATION(prob=0.8333333333333333E0 ; freq=5)
+ITERATION #3: NEW SPELLING RULES
+SPELLING Contains(City) -> LOCATION(prob=0.1E1 ; freq=44)
+SPELLING Contains(David) -> PERSON(prob=0.1E1 ; freq=20)
+SPELLING Contains(Ho) -> LOCATION(prob=0.8888888888888889E0 ; freq=8)
+SPELLING Contains(John) -> PERSON(prob=0.1E1 ; freq=10)
+SPELLING Contains(Lockheed) -> ORGANIZATION(prob=0.8E0 ; freq=8)
+SPELLING Contains(Ltd) -> ORGANIZATION(prob=0.1E1 ; freq=16)
+FINAL DECISION LIST
+SPELLING Contains(Corp) -> ORGANIZATION(prob=-0.1E1 ; freq=-1)
+SPELLING Contains(Japan) -> LOCATION(prob=-0.1E1 ; freq=-1)
+SPELLING Contains(John) -> PERSON(prob=-0.1E1 ; freq=-1)
+SPELLING Contains(David) -> PERSON(prob=-0.1E1 ; freq=-1)
+SPELLING Contains(City) -> LOCATION(prob=-0.1E1 ; freq=-1)
+SPELLING Contains(Ltd) -> ORGANIZATION(prob=-0.1E1 ; freq=-1)
+SPELLING Contains(David) -> PERSON(prob=0.1E1 ; freq=20)
+SPELLING Contains(Ho) -> LOCATION(prob=0.1E1 ; freq=8)
+SPELLING Contains(Johnson) -> PERSON(prob=0.1E1 ; freq=10)
+SPELLING Contains(Lockheed) -> ORGANIZATION(prob=0.8E0 ; freq=8)
+SPELLING Contains(Ltd) -> ORGANIZATION(prob=0.1E1 ; freq=16)
+SPELLING Contains(Minh) -> LOCATION(prob=0.1E1 ; freq=8)
+SPELLING Contains(City) -> LOCATION(prob=0.1E1 ; freq=44)
+SPELLING Contains(David) -> PERSON(prob=0.1E1 ; freq=20)
+SPELLING Contains(Ho) -> LOCATION(prob=0.8888888888888889E0 ; freq=8)
+SPELLING Contains(John) -> PERSON(prob=0.1E1 ; freq=10)
+SPELLING Contains(Lockheed) -> ORGANIZATION(prob=0.8E0 ; freq=8)
+SPELLING Contains(Ltd) -> ORGANIZATION(prob=0.1E1 ; freq=16)
+SPELLING Contains(City) -> LOCATION(prob=0.1E1 ; freq=44)
+SPELLING Contains(David) -> PERSON(prob=0.1E1 ; freq=20)
+SPELLING Contains(Ho) -> LOCATION(prob=0.8888888888888889E0 ; freq=8)
+SPELLING Contains(John) -> PERSON(prob=0.1E1 ; freq=10)
+SPELLING Contains(Lockheed) -> ORGANIZATION(prob=0.8E0 ; freq=8)
+SPELLING Contains(Ltd) -> ORGANIZATION(prob=0.1E1 ; freq=16)
+CONTEXT Contains(between) -> ORGANIZATION(prob=0.8333333333333333E0 ; freq=5)
+CONTEXT Contains(capital) -> LOCATION(prob=0.1E1 ; freq=10)
+CONTEXT Contains(chairman) -> PERSON(prob=0.1E1 ; freq=7)
+CONTEXT Contains(company) -> ORGANIZATION(prob=0.1E1 ; freq=7)
+CONTEXT Contains(president) -> PERSON(prob=0.8461538461538462E0 ; freq=11)
+CONTEXT Contains(region) -> LOCATION(prob=0.1E1 ; freq=11)
+CONTEXT Contains(Bank) -> LOCATION(prob=0.9047619047619048E0 ; freq=19)
+CONTEXT Contains(merger) -> ORGANIZATION(prob=0.1E1 ; freq=10)
+CONTEXT Contains(stake) -> ORGANIZATION(prob=0.1E1 ; freq=5)
+CONTEXT Contains(shares) -> ORGANIZATION(prob=0.8333333333333333E0 ; freq=5)
+APPLYING FINAL DECISION LIST TO TEST INSTANCES
+
+CONTEXT: division of
+
+NP: Gleason Inc
+
+CLASS: NONE
+
+
+CONTEXT: customers in
+
+NP: the Pacific region
+
+CLASS: NONE
+
+
+CONTEXT: famous writer
+
+NP: William Shakespeare
+
+CLASS: NONE
+
+
+CONTEXT: acquisition of
+
+NP: McDonnell Douglas Helicopter company
+
+CLASS: NONE
+
+
+CONTEXT: branch of
+
+NP: Lockheed Martin
+
+CLASS: ORGANIZATION
+
+
+CONTEXT: leader of
+
+NP: Palestinian Liberation Organization
+
+CLASS: NONE
+
+
+CONTEXT: merger with
+
+NP: William Smith
+
+CLASS: ORGANIZATION
+
+
+CONTEXT: veterinary assistant
+
+NP: Susan Stanley
+
+CLASS: NONE
+
+
+CONTEXT: chairman
+
+NP: Walter Douglas
+
+CLASS: PERSON
+
+
+CONTEXT: president
+
+NP: William Johnson
+
+CLASS: PERSON
+
+
+CONTEXT: company president
+
+NP: Vera Wang
+
+CLASS: ORGANIZATION
+
+
+CONTEXT: chairman of
+
+NP: Kansas Textiles Corporation
+
+CLASS: ORGANIZATION
+
+
+CONTEXT: chairman of
+
+NP: Kansas Textiles Inc
+
+CLASS: PERSON
+

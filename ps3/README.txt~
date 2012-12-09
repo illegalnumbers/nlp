@@ -1,0 +1,3 @@
+"/usr/local/stow/ruby/amd64_linux26/ruby-1.9.1-p378/bin/ruby ner.rb {seed path} {training file path} {test file path}" 
+tested on lab1-12
+bugs-I was unable to fully complete the assignment, my initial design was determined to be unacceptable to complete the assignment as designed and I had to scrap my entire implementation once I realized this and wasn't able to finish.
