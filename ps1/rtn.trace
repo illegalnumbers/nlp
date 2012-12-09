@@ -1,0 +1,30 @@
+PROCESSING SENTENCE : john .
+
+
+Done! Found 0 parse(s).
+PROCESSING SENTENCE : john walks .
+
+
+SUCCESSFUL PARSE
+S0 - NP -> S1
+NP0 - NOUN(JOHN) -> NP2
+S1 - VP -> S2
+VP0 - VERB(WALKS) -> VP1
+S2 (ACCEPT)
+
+Done! Found 1 parse(s).
+PROCESSING SENTENCE : flies like smelly bananas .
+
+
+SUCCESSFUL PARSE
+Done! Found 1 parse(s).
+PROCESSING SENTENCE : fruit flies like trees .
+
+
+SUCCESSFUL PARSE
+Done! Found 1 parse(s).
+PROCESSING SENTENCE : fruit flies like the pears in the trees .
+
+
+SUCCESSFUL PARSE
+Done! Found 1 parse(s).

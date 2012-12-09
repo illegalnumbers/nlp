@@ -1,0 +1,7 @@
+MACHINE S
+INIT S0
+FINAL S2
+BEGIN
+S0 noun S1
+S1 verb S2
+END
